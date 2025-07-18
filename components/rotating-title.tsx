@@ -51,12 +51,15 @@ export default function RotatingTitle() {
 
   return (
     <div className="space-y-6">
-      <h1
-        className={`${vigiaFont.className} text-7xl md:text-9xl font-semibold tracking-tight text-black transition-all duration-500 ease-in-out ${
-          isVisible ? "opacity-100 transform translate-y-0" : "opacity-0 transform translate-y-2"
-        }`}
-      >
-        <HighlightText text={`PROJETO ${projects[currentIndex].name}`} delay={300} />
+      <h1 className={`${vigiaFont.className} text-7xl md:text-9xl font-semibold tracking-tight text-black`}>
+        PROJETO{" "}
+        <span
+          className={`transition-all duration-500 ease-in-out ${
+            isVisible ? "opacity-100 transform translate-y-0" : "opacity-0 transform translate-y-2"
+          }`}
+        >
+          <HighlightText text={projects[currentIndex].name} delay={300} />
+        </span>
       </h1>
       <p
         className={`text-2xl md:text-3xl font-light text-gray-800 max-w-4xl mx-auto leading-tight transition-all duration-500 ease-in-out ${
