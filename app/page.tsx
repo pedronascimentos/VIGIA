@@ -218,26 +218,29 @@ export default function VigiaLanding() {
 
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-                  <h4 className="font-semibold mb-3 text-gray-900">Escalabilidade</h4>
+                  <h4 className="font-semibold mb-3 text-gray-900">Acessibilidade</h4>
                   <p className="text-gray-700 text-sm">
-                    Pipeline assíncrono com processamento em batch, similar ao modelo Google. ETL jobs para consolidar
-                    eventos em tabelas analíticas.
+                    Diferente do Google Maps que não torna públicos seus insights de risco e cobra valores proibitivos
+                    para órgãos públicos, nosso sistema será{" "}
+                    <HighlightText text="acessível para a segurança pública" className="font-medium" />.
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-                  <h4 className="font-semibold mb-3 text-gray-900">Privacidade</h4>
+                  <h4 className="font-semibold mb-3 text-gray-900">Custo-Benefício</h4>
                   <p className="text-gray-700 text-sm">
-                    Processamento local quando possível, transmissão segura (TLS), anonimização de dados pessoais nos
-                    datasets de treinamento.
+                    Enquanto soluções corporativas custam milhões para o governo federal, oferecemos{" "}
+                    <HighlightText text="pricing acessível para PCDF" className="font-medium" /> e outros órgãos de
+                    segurança estaduais e municipais.
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-                  <h4 className="font-semibold mb-3 text-gray-900">Monetização</h4>
+                  <h4 className="font-semibold mb-3 text-gray-900">Foco Público</h4>
                   <p className="text-gray-700 text-sm">
-                    Venda de insights processados (dashboards, APIs de risk_score) ao invés de dados brutos, seguindo o
-                    modelo "Insights as a Service".
+                    Modelo de negócio voltado para <HighlightText text="segurança pública" className="font-medium" />,
+                    não para maximização de lucro. Insights de risco como serviço público essencial, não commodity
+                    corporativa.
                   </p>
                 </div>
               </div>
